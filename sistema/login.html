@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Clínica Pet Shop</title>
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <section class="login-card">
+
+            <div class="logo">
+                <span>🐾</span>
+                <h1>PetCare</h1>
+                <p>Clínica Veterinária e Pet Shop</p>
+            </div>
+
+            <div class="login-title">
+                <h2>Bem-vindo!</h2>
+                <p>Entre com seus dados para continuar.</p>
+            </div>
+
+            <form id="formLogin">
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite seu e-mail"
+                        required
+                    >
+                </div>
+
+                <div class="campo">
+                    <label for="senha">Senha</label>
+
+                    <input
+                        type="password"
+                        id="senha"
+                        placeholder="Digite sua senha"
+                        required
+                    >
+                </div>
+
+                <div id="mensagem"></div>
+
+                <button type="submit">
+                    Entrar no sistema
+                </button>
+
+            </form>
+
+            <footer>
+                Sistema de gerenciamento veterinário
+            </footer>
+
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
